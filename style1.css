@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("6.jpg"); no-repeat;
+	background-size: cover;
+}
+.login{
+	width: 320px;
+	height: 300px;
+	background: none;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.user{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-77px;
+	left: calc(50% -);
+}
+}
+.login h1{
+	float: left;
+	font-size:40px;
+	border-bottom: 6px;
+	padding: 13px;
+}
+.login a{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size:20px;
+	padding: 8px;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: black;
+	font-size:18px;
+	width: 80%;
+	float: left;
+}
+.btn{
+	width: 50%;
+	background: none;
+	padding: 5px;
+	cursor: pointer;
+	font-size:18px;
+}

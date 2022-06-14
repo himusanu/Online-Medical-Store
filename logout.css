@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap');
+
+:root{
+	--light-gray: #2b3032a1;
+	--primary-color: #9b7653;
+	--border: #2b303218;
+	--text-color: #ff686b;
+	--roboto:"Roboto", sans-serif;
+	--gugi:"Gugi", cursive;
+	--sufia:"Sufia", cursive;
+}
+
+.primary-color{
+	color: var(--primary-color);
+}
+
+.text-color{
+	color: var(--text-color);
+}
+
+.font-roboto{
+	font-family: var(--roboto);
+}
+
+.lightblue{
+	color: lightblue;
+}
+
+header{
+	background-color: var(--primary-color);
+	font-family: var(--roboto);
+}
+
+header.site-title{
+	font-family: var(--gugi);
+}
+
+.header-links a{
+	font-size: 0.9em;
+	text-decoration: none; 
+	color: white;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.bg-primary-color{
+	background-color: var(--primary-color) !important;
+}
+
+.logo{
+	background-image:url("0811.jpg");
+	margin-top:0px;
+	width:80px;
+	height:68px;
+	background-repeat:no-repeat;
+}
+
+.logout ul{
+	list-style-type: inline;
+}
+.logout a{
+	color: #9b7653;
+	text-decoration: underline;
+	font-size: 35px;
+}
+.logout h2{
+	padding-top: 150px;
+	color: #9b7653;
+}
+.foot{
+	width: 100%;
+	height: 55px;
+	background-color: #9b7653;
+	bottom: 0px;
+}
